@@ -13,6 +13,9 @@
 		059382281FCE832600FFEC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059382271FCE832600FFEC15 /* Assets.xcassets */; };
 		0593822B1FCE832600FFEC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059382291FCE832600FFEC15 /* LaunchScreen.storyboard */; };
 		0593822E1FCE832600FFEC15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593822D1FCE832600FFEC15 /* main.m */; };
+		059382391FCE861300FFEC15 /* LJOrmDBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 059382381FCE861300FFEC15 /* LJOrmDBServer.m */; };
+		0593823C1FCE908500FFEC15 /* LJOrmDBTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593823B1FCE908500FFEC15 /* LJOrmDBTable.m */; };
+		0593823F1FCE9F4500FFEC15 /* LJOrmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593823E1FCE9F4500FFEC15 /* LJOrmModel.m */; };
 		81B05BEC9C8230FFCBDCAA59 /* Pods_LJOrm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D70B0CE6F86C6ED35C279AD /* Pods_LJOrm.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,13 @@
 		0593822A1FCE832600FFEC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0593822C1FCE832600FFEC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0593822D1FCE832600FFEC15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		059382351FCE842B00FFEC15 /* LJOrmConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOrmConfiguration.h; sourceTree = "<group>"; };
+		059382371FCE861300FFEC15 /* LJOrmDBServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOrmDBServer.h; sourceTree = "<group>"; };
+		059382381FCE861300FFEC15 /* LJOrmDBServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJOrmDBServer.m; sourceTree = "<group>"; };
+		0593823A1FCE908500FFEC15 /* LJOrmDBTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOrmDBTable.h; sourceTree = "<group>"; };
+		0593823B1FCE908500FFEC15 /* LJOrmDBTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJOrmDBTable.m; sourceTree = "<group>"; };
+		0593823D1FCE9F4500FFEC15 /* LJOrmModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOrmModel.h; sourceTree = "<group>"; };
+		0593823E1FCE9F4500FFEC15 /* LJOrmModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJOrmModel.m; sourceTree = "<group>"; };
 		5D70B0CE6F86C6ED35C279AD /* Pods_LJOrm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJOrm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF106F4D01263888EBEEB0B /* Pods-LJOrm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJOrm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm.debug.xcconfig"; sourceTree = "<group>"; };
 		E2A9522D30102E7467CB3419 /* Pods-LJOrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJOrm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +75,7 @@
 		0593821D1FCE832600FFEC15 /* LJOrm */ = {
 			isa = PBXGroup;
 			children = (
+				059382341FCE83EF00FFEC15 /* LJOrm */,
 				0593821E1FCE832600FFEC15 /* AppDelegate.h */,
 				0593821F1FCE832600FFEC15 /* AppDelegate.m */,
 				059382211FCE832600FFEC15 /* ViewController.h */,
@@ -74,6 +85,20 @@
 				059382291FCE832600FFEC15 /* LaunchScreen.storyboard */,
 				0593822C1FCE832600FFEC15 /* Info.plist */,
 				0593822D1FCE832600FFEC15 /* main.m */,
+			);
+			path = LJOrm;
+			sourceTree = "<group>";
+		};
+		059382341FCE83EF00FFEC15 /* LJOrm */ = {
+			isa = PBXGroup;
+			children = (
+				059382351FCE842B00FFEC15 /* LJOrmConfiguration.h */,
+				059382371FCE861300FFEC15 /* LJOrmDBServer.h */,
+				059382381FCE861300FFEC15 /* LJOrmDBServer.m */,
+				0593823A1FCE908500FFEC15 /* LJOrmDBTable.h */,
+				0593823B1FCE908500FFEC15 /* LJOrmDBTable.m */,
+				0593823D1FCE9F4500FFEC15 /* LJOrmModel.h */,
+				0593823E1FCE9F4500FFEC15 /* LJOrmModel.m */,
 			);
 			path = LJOrm;
 			sourceTree = "<group>";
@@ -223,9 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0593823F1FCE9F4500FFEC15 /* LJOrmModel.m in Sources */,
+				0593823C1FCE908500FFEC15 /* LJOrmDBTable.m in Sources */,
 				059382231FCE832600FFEC15 /* ViewController.m in Sources */,
 				0593822E1FCE832600FFEC15 /* main.m in Sources */,
 				059382201FCE832600FFEC15 /* AppDelegate.m in Sources */,
+				059382391FCE861300FFEC15 /* LJOrmDBServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

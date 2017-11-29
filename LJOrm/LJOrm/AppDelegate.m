@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LJOrmDBServer.h"
 
 @interface AppDelegate ()
 
