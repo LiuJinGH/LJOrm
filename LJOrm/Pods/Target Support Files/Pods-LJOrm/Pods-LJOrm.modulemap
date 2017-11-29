@@ -1,0 +1,6 @@
+framework module Pods_LJOrm {
+  umbrella header "Pods-LJOrm-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,75 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0593820B1FCE7C8F00FFEC15 /* LJOrm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593820A1FCE7C8F00FFEC15 /* LJOrm.m */; };
-		0593820C1FCE7C8F00FFEC15 /* LJOrm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 059382091FCE7C8F00FFEC15 /* LJOrm.h */; };
+		059382201FCE832600FFEC15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593821F1FCE832600FFEC15 /* AppDelegate.m */; };
+		059382231FCE832600FFEC15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059382221FCE832600FFEC15 /* ViewController.m */; };
+		059382261FCE832600FFEC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059382241FCE832600FFEC15 /* Main.storyboard */; };
+		059382281FCE832600FFEC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059382271FCE832600FFEC15 /* Assets.xcassets */; };
+		0593822B1FCE832600FFEC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059382291FCE832600FFEC15 /* LaunchScreen.storyboard */; };
+		0593822E1FCE832600FFEC15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0593822D1FCE832600FFEC15 /* main.m */; };
+		81B05BEC9C8230FFCBDCAA59 /* Pods_LJOrm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D70B0CE6F86C6ED35C279AD /* Pods_LJOrm.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		059382041FCE7C8F00FFEC15 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				0593820C1FCE7C8F00FFEC15 /* LJOrm.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		059382061FCE7C8F00FFEC15 /* libLJOrm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLJOrm.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		059382091FCE7C8F00FFEC15 /* LJOrm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJOrm.h; sourceTree = "<group>"; };
-		0593820A1FCE7C8F00FFEC15 /* LJOrm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJOrm.m; sourceTree = "<group>"; };
+		0593821B1FCE832600FFEC15 /* LJOrm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJOrm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0593821E1FCE832600FFEC15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0593821F1FCE832600FFEC15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		059382211FCE832600FFEC15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		059382221FCE832600FFEC15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		059382251FCE832600FFEC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		059382271FCE832600FFEC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0593822A1FCE832600FFEC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0593822C1FCE832600FFEC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0593822D1FCE832600FFEC15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D70B0CE6F86C6ED35C279AD /* Pods_LJOrm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJOrm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF106F4D01263888EBEEB0B /* Pods-LJOrm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJOrm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A9522D30102E7467CB3419 /* Pods-LJOrm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJOrm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		059382031FCE7C8F00FFEC15 /* Frameworks */ = {
+		059382181FCE832600FFEC15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B05BEC9C8230FFCBDCAA59 /* Pods_LJOrm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		059381FD1FCE7C8F00FFEC15 = {
+		059382121FCE832600FFEC15 = {
 			isa = PBXGroup;
 			children = (
-				059382081FCE7C8F00FFEC15 /* LJOrm */,
-				059382071FCE7C8F00FFEC15 /* Products */,
+				0593821D1FCE832600FFEC15 /* LJOrm */,
+				0593821C1FCE832600FFEC15 /* Products */,
+				AC093C7E6E2CFA741F4E26E9 /* Pods */,
+				32E325F641E0C59C7502BE4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		059382071FCE7C8F00FFEC15 /* Products */ = {
+		0593821C1FCE832600FFEC15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				059382061FCE7C8F00FFEC15 /* libLJOrm.a */,
+				0593821B1FCE832600FFEC15 /* LJOrm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		059382081FCE7C8F00FFEC15 /* LJOrm */ = {
+		0593821D1FCE832600FFEC15 /* LJOrm */ = {
 			isa = PBXGroup;
 			children = (
-				059382091FCE7C8F00FFEC15 /* LJOrm.h */,
-				0593820A1FCE7C8F00FFEC15 /* LJOrm.m */,
+				0593821E1FCE832600FFEC15 /* AppDelegate.h */,
+				0593821F1FCE832600FFEC15 /* AppDelegate.m */,
+				059382211FCE832600FFEC15 /* ViewController.h */,
+				059382221FCE832600FFEC15 /* ViewController.m */,
+				059382241FCE832600FFEC15 /* Main.storyboard */,
+				059382271FCE832600FFEC15 /* Assets.xcassets */,
+				059382291FCE832600FFEC15 /* LaunchScreen.storyboard */,
+				0593822C1FCE832600FFEC15 /* Info.plist */,
+				0593822D1FCE832600FFEC15 /* main.m */,
 			);
 			path = LJOrm;
+			sourceTree = "<group>";
+		};
+		32E325F641E0C59C7502BE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D70B0CE6F86C6ED35C279AD /* Pods_LJOrm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC093C7E6E2CFA741F4E26E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF106F4D01263888EBEEB0B /* Pods-LJOrm.debug.xcconfig */,
+				E2A9522D30102E7467CB3419 /* Pods-LJOrm.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		059382051FCE7C8F00FFEC15 /* LJOrm */ = {
+		0593821A1FCE832600FFEC15 /* LJOrm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0593820F1FCE7C8F00FFEC15 /* Build configuration list for PBXNativeTarget "LJOrm" */;
+			buildConfigurationList = 059382311FCE832600FFEC15 /* Build configuration list for PBXNativeTarget "LJOrm" */;
 			buildPhases = (
-				059382021FCE7C8F00FFEC15 /* Sources */,
-				059382031FCE7C8F00FFEC15 /* Frameworks */,
-				059382041FCE7C8F00FFEC15 /* CopyFiles */,
+				9EC4A43A8EEA47952E580581 /* [CP] Check Pods Manifest.lock */,
+				059382171FCE832600FFEC15 /* Sources */,
+				059382181FCE832600FFEC15 /* Frameworks */,
+				059382191FCE832600FFEC15 /* Resources */,
+				7EDA62F02B0CE29B2549ED89 /* [CP] Embed Pods Frameworks */,
+				A293CEA3DC3911FA8B6509F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,54 +115,143 @@
 			);
 			name = LJOrm;
 			productName = LJOrm;
-			productReference = 059382061FCE7C8F00FFEC15 /* libLJOrm.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 0593821B1FCE832600FFEC15 /* LJOrm.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		059381FE1FCE7C8F00FFEC15 /* Project object */ = {
+		059382131FCE832600FFEC15 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "刘瑾";
 				TargetAttributes = {
-					059382051FCE7C8F00FFEC15 = {
+					0593821A1FCE832600FFEC15 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 059382011FCE7C8F00FFEC15 /* Build configuration list for PBXProject "LJOrm" */;
+			buildConfigurationList = 059382161FCE832600FFEC15 /* Build configuration list for PBXProject "LJOrm" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 059381FD1FCE7C8F00FFEC15;
-			productRefGroup = 059382071FCE7C8F00FFEC15 /* Products */;
+			mainGroup = 059382121FCE832600FFEC15;
+			productRefGroup = 0593821C1FCE832600FFEC15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				059382051FCE7C8F00FFEC15 /* LJOrm */,
+				0593821A1FCE832600FFEC15 /* LJOrm */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		059382191FCE832600FFEC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0593822B1FCE832600FFEC15 /* LaunchScreen.storyboard in Resources */,
+				059382281FCE832600FFEC15 /* Assets.xcassets in Resources */,
+				059382261FCE832600FFEC15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EDA62F02B0CE29B2549ED89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC4A43A8EEA47952E580581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJOrm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A293CEA3DC3911FA8B6509F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJOrm/Pods-LJOrm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		059382021FCE7C8F00FFEC15 /* Sources */ = {
+		059382171FCE832600FFEC15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0593820B1FCE7C8F00FFEC15 /* LJOrm.m in Sources */,
+				059382231FCE832600FFEC15 /* ViewController.m in Sources */,
+				0593822E1FCE832600FFEC15 /* main.m in Sources */,
+				059382201FCE832600FFEC15 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		059382241FCE832600FFEC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059382251FCE832600FFEC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		059382291FCE832600FFEC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0593822A1FCE832600FFEC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		0593820D1FCE7C8F00FFEC15 /* Debug */ = {
+		0593822F1FCE832600FFEC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		0593820E1FCE7C8F00FFEC15 /* Release */ = {
+		059382301FCE832600FFEC15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,26 +355,34 @@
 			};
 			name = Release;
 		};
-		059382101FCE7C8F00FFEC15 /* Debug */ = {
+		059382321FCE832600FFEC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF106F4D01263888EBEEB0B /* Pods-LJOrm.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J6Q958274;
-				OTHER_LDFLAGS = "-ObjC";
+				INFOPLIST_FILE = LJOrm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lucky.LJOrm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		059382111FCE7C8F00FFEC15 /* Release */ = {
+		059382331FCE832600FFEC15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A9522D30102E7467CB3419 /* Pods-LJOrm.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J6Q958274;
-				OTHER_LDFLAGS = "-ObjC";
+				INFOPLIST_FILE = LJOrm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lucky.LJOrm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -261,25 +390,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		059382011FCE7C8F00FFEC15 /* Build configuration list for PBXProject "LJOrm" */ = {
+		059382161FCE832600FFEC15 /* Build configuration list for PBXProject "LJOrm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0593820D1FCE7C8F00FFEC15 /* Debug */,
-				0593820E1FCE7C8F00FFEC15 /* Release */,
+				0593822F1FCE832600FFEC15 /* Debug */,
+				059382301FCE832600FFEC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0593820F1FCE7C8F00FFEC15 /* Build configuration list for PBXNativeTarget "LJOrm" */ = {
+		059382311FCE832600FFEC15 /* Build configuration list for PBXNativeTarget "LJOrm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				059382101FCE7C8F00FFEC15 /* Debug */,
-				059382111FCE7C8F00FFEC15 /* Release */,
+				059382321FCE832600FFEC15 /* Debug */,
+				059382331FCE832600FFEC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 059381FE1FCE7C8F00FFEC15 /* Project object */;
+	rootObject = 059382131FCE832600FFEC15 /* Project object */;
 }
